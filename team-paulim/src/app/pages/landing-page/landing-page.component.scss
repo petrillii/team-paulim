@@ -1,0 +1,29 @@
+.programa-item {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 35px;
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  /* Estilo para a checklist */
+  .checklist {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 5px;
+      &:before {
+        content: "\2713"; /* Símbolo de marca de verificação */
+        color: green; /* Cor da marca de verificação */
+        margin-right: 5px;
+      }
+    }
+  }
+}
